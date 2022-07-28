@@ -1,0 +1,95 @@
+que tan rapida quieren la subida de nivel
+
+
+------------------------primer mapa
+al inicio epxlicar su situacion actual, hace 6 dias no consiguen trabajo, 
+estan rodeados de otras tiendas de campaña donde otros turistas estuvieron descansando, la idea era pasar una noche
+ahi pero como no ocurrio nada lo mas comodo fue quedarse. descripion de olor, sonido y vista
+tienen que esperar a su lider porqe fue a averiguar un par de cosas, no les especifico el que.
+
+cuando vuelve les explica que iran al concurso de Elders que iran y que va a haber mucha gente, lo mejor es pasar
+lo mas desapercibidos posible
+luego esperaran al dia siguiente para partir
+
+-----------------------segundo mapa
+hay muchisima gente, explicar quienes son los Elders y como van haciendo las pruebas, son pruebas de honor
+sabiduria, caracter y poder, son varios concursantes y se siente el entusiasmo en el aire. 
+
+
+hacer que el lider los lleve a las primeras filas 
+
+para dar preambulo a la competencia los Elders cambian todas las hojas de color
+
+------------------------tercer mapa
+continuan con las competencias
+ en un momento dado se muestra un conjuro maligno que levanta enemigos
+los Elders actuan debilitandolos
+
+los Elders empiezan a discuti porque por tradicion deben interrumpir la ceremonia, algunos discuten que
+es una tradicion tonta
+al final deciden no realizarla hasta que se solcione el problema
+
+el lider se ofrece a arreglar el problema
+
+el Elder de pelo blanco los aparta y les dice que los cree muy valintes, les deja una marca en el brazo y les
+da la ubicacion de una chaman que les dara lo necesario para rastraer la fuente de esta magia
+
+---------------------cuarto mapa
+
+viajan
+
+tienen hongos comestibles a su disposicion
+
+un espiritu de agua los escupe para llamar su atencion
+
+les dice de una antigua leyenda que si tiran monedas le daran el poder de concederles un deseo
+
+tirada de sabiduria de juani para saber si es una estafa
+
+------------------- quinto mapa
+
+si tienen los hongos escondidos no les haran nada, si agarran algun frente a ellos los atacaran
+si no muestran los hongos ni arrancan ninguno no les haran nada
+
+los espiritus en el turno x les van a tirar un hongo
+
+los hongos los ayudaran
+
+-------------------sexto mapa
+llegan a la cabaña
+descripcion del olor, ambiente y demas
+
+chaman les enseña a preparar el ritual y les pide dinero por ello
+
+deben situarse haciendo un hexagono
+cada uno debe tirar a sus pies pelo de cadaver, garras recien cortadas y sal sobre una ubicacion encantada del
+bosque
+
+"el bosque habla" con esto podran oir"
+
+--------------septimo mapa
+llegan a las runas
+
+una vez esten a punto de hacer ritual aparecen los Elders
+se los inculpa con las 3 pruebas
+marca, ritual, forastros
+
+hieren al lider por violntarse y se los lleva esposados
+
+pantallaso negro-
+
+
+fin 
+
+
+
+ideas para la proxima mesa
+el elder oculto los deja escapar, les explica que lo hizo por puro interes politico y que le recomienda que salgan
+del pais
+
+el lider les explica la situacion. si se van va a ser mas facil pero tienen que irse cuanto antes para que no llegue
+la info a los puertos.
+si se quedan tendran que pasar desapercibidos todo el tiempo pero como sus rostros figuraran en todos los carteles
+van a tener fama por lo tanto mejores trabajos
+
+npm install @mui/icons-material
