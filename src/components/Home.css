@@ -90,3 +90,15 @@
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px){
+  .Logo{
+    width: 300px;
+  }
+  
+}
+@media (max-width:1100px){
+  .homeCards{
+    display: flex;
+    flex-direction: column;
+  }
+}

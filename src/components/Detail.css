@@ -48,3 +48,12 @@
   color: white;
   margin-bottom: 0.5rem;
 }
+@media (max-width: 600px){
+  .detailContainer img {
+    width: 150px;
+    height: auto;
+  }
+  .detailContainer__profile p{
+    font-size: 15px;
+  }
+}
