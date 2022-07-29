@@ -32,3 +32,29 @@
   padding-top: 5px;
   border-radius: 5px;
 }
+.createButton{
+  color: #f5f5f5;
+  margin: 1rem auto;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  display: block;
+  position: relative;
+  width: fit-content;
+  background: none;
+}
+.createButton:hover{
+  background-color: white;
+  color: black;
+}
+.disabledCreateButton{
+  color: #f5f5f56e;
+  margin: 1rem auto;
+  border: 1px solid #f5f5f56e;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  display: block;
+  position: relative;
+  width: fit-content;
+  background: none;
+}

@@ -45,23 +45,23 @@ export default function CharacterCreate() {
     let onlyLeters = new RegExp('/^[A-Z]+$/i')
     if (name === "name") {
       if (!/^[A-Z]+$/i.test(e.target.value)) {
-        setError({ ...error, [name]: "El nombre solo debe contener letras" });
+        setError({ ...error, [name]: "Invalid name" });
       } else {
         setError({ ...error, [name]: "" });
       }
     }
     if (name === "image") {
       if (!e.target.value) {
-        setError({ ...error, [name]: "Debe haber una imagen" });
+        setError({ ...error, [name]: "Required field" });
       } else {
         setError({ ...error, [name]: "" });
       }
     }
     if (numerics.includes(name)) {
-      if (e.target.value === "") {
-        setError({ ...error, [name]: "Las estadisticas deben ser numericas" });
-      } else {
+      if (/^\d+$/.test(e.target.value)) {
         setError({ ...error, [name]: "" });
+      } else {
+        setError({ ...error, [name]: "Stats should be integers" });
       }
     }
   };
@@ -109,7 +109,7 @@ export default function CharacterCreate() {
   return (
     <div className="createContainer">
       <Link className="link" to="/home">
-        Volver
+        Go back
       </Link>
       <h1 style={{color:"white"}}>Create your Pokémon</h1>
       <form onSubmit={handleSubmit}>
@@ -246,7 +246,45 @@ export default function CharacterCreate() {
             </select>
           )}
         </div>
-        <button className="button" type="submit">Submit</button>
+        <button 
+        className={(error?.name
+          || error?.image
+          || error?.healthpoints
+          || error?.attack
+          || error?.defense
+          || error?.speed
+          || error?.height
+          || error?.weight)||(
+            input?.name.length===0
+            || input?.image.length === 0 
+            || input?.healthpoints === null
+            || input?.attack === null
+            || input?.defense === null 
+            || input?.speed === null 
+            || input?.height === null 
+            || input?.weight === null 
+            || input?.types.length === 0 
+          ) ? "disabledCreateButton":"createButton" }
+        type={(error?.name
+          || error?.image
+          || error?.healthpoints
+          || error?.attack
+          || error?.defense
+          || error?.speed
+          || error?.height
+          || error?.weight)||(
+            input?.name.length===0
+            || input?.image.length === 0 
+            || input?.healthpoints === null
+            || input?.attack === null
+            || input?.defense === null 
+            || input?.speed === null 
+            || input?.height === null 
+            || input?.weight === null 
+            || input?.types.length === 0 
+          )
+          ?"button":"submit"}
+        >Submit</button>
       </form>
     </div>
   );
