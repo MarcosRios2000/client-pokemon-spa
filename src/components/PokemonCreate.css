@@ -17,7 +17,8 @@
 
 }
 .error{
-  color: rgb(252, 90, 90);
+  color: rgb(211, 47, 47);
+  font-size: 12px;
 }
 
 .selectCreate select{
