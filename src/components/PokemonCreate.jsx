@@ -22,6 +22,8 @@ export default function CharacterCreate() {
   const [error, setError] = useState(initialState);
   const [input, setInput] = useState(initialState);
 
+  const history = useHistory()
+
   const handleInputChange = function (e) {
     setInput({
       ...input,
@@ -97,6 +99,7 @@ export default function CharacterCreate() {
     dispatch(postPokemon(input));
     dispatch(reloadPokemons());
     clearForm();
+    history.push("/home")
   };
 
   useEffect(() => {
